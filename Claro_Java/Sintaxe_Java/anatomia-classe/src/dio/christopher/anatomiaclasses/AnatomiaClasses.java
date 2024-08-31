@@ -1,5 +1,5 @@
 package dio.christopher.anatomiaclasses;
-public class MyClass {
+public class AnatomiaClasses {
 
     public static void main (String [] args) {
         String firstName = "Wanjo";
