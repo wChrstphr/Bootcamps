@@ -1,5 +1,6 @@
 package dio.christopher.metodos;
 
+
 public class Metodos {
 
     // metodo publico as outras classes
@@ -28,3 +29,4 @@ public class Metodos {
     // ou 
     public void gravar(Cliente cliente){}
 }
+

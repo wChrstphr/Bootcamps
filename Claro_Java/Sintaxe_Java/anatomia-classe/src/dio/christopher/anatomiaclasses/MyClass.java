@@ -1,6 +1,6 @@
 package dio.christopher.anatomiaclasses;
 public class MyClass {
-    
+
     public static void main (String [] args) {
         String firstName = "Wanjo";
         String secondName = "Christopher";

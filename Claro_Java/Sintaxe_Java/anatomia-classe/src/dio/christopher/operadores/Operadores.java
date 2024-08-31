@@ -1,5 +1,6 @@
 package dio.christopher.operadores;
 
+
 public class Operadores {
     public static void main(String[] args) {
         // Testando operador de adicao para concatenar valores
@@ -43,7 +44,7 @@ public class Operadores {
         int a = 5;
         int b = 6;
         String resultado = "";
-
+        
         // estrutura if convencional
         if (a == b)
             resultado = "verdadeiro";
