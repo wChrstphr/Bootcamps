@@ -1,4 +1,5 @@
-public class ExemploForArray {
+package fortests;
+public class ImprimeAlunos {
     public static void main(String[] args) {
         String alunos [] = {"Felipe", "Joao", "Marcela", "Christopher"};
 

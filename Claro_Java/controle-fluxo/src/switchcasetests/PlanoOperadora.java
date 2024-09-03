@@ -1,3 +1,4 @@
+package switchcasetests;
 
 
 public class PlanoOperadora {

@@ -1,3 +1,4 @@
+package switchcasetests;
 public class SistemaMedida {
     public static void main(String[] args) {
         char option = 'S';

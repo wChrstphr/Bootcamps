@@ -1,3 +1,4 @@
+package ifelsetests;
 public class SchoolGrades {
     public static void main(String[] args) {
         int grade = 8;

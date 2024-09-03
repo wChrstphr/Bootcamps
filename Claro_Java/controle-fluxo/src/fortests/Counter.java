@@ -1,4 +1,5 @@
-public class ExemploFor {
+package fortests;
+public class Counter {
     public static void main(String[] args) {
         for (int count = 1; count <= 20; count++) {
             System.out.println("Counting up to 20. Currently at: " + count);

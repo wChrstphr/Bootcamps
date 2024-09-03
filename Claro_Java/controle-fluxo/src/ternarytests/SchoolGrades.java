@@ -1,4 +1,5 @@
-public class SchoolGradesTernary {
+package ternarytests;
+public class SchoolGrades {
     public static void main(String[] args) {
         int grade = 7;
         String result;

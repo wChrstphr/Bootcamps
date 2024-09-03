@@ -1,6 +1,7 @@
+package dowhiletests;
 import java.util.Random;
 
-public class ExemploDoWhile {
+public class PhoneCall {
     public static void main(String[] args) {
         int ringCount = 0;
         System.out.println("Dialing...");

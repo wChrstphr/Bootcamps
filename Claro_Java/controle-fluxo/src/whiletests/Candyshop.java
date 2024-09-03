@@ -1,3 +1,4 @@
+package whiletests;
 import java.util.concurrent.ThreadLocalRandom;
 
 // Neste codigo, temos uma criança, Melissa, que ganhou mesada e quer gastar em doces
@@ -7,7 +8,7 @@ import java.util.concurrent.ThreadLocalRandom;
 // dinheiro para comprar doces, assim exibimos o que restou e a
 // quantidade de doces comprados
 
-public class ExemploWhile {
+public class Candyshop {
     public static void main(String[] args) {
         double balance = 50.0;
         int candyNumber = 0;

@@ -1,3 +1,4 @@
+package ifelsetests;
 public class CashMachine {
     public static void main(String[] args) {
         double balance = 25.0;

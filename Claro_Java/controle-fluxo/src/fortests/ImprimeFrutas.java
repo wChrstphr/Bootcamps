@@ -1,6 +1,7 @@
+package fortests;
 
 
-public class Feirinha {
+public class ImprimeFrutas {
     public static void main(String[] args) {
         String frutas [] = {"banana", "maça", "pera", "uva", "melancia", "laranja", "abacaxi"};
 
