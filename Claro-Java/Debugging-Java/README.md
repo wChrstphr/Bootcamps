@@ -72,8 +72,8 @@ Finalizou o método b.
 Finalizou o método a.
 Finalização do programa no método main.
 ```
-
-### Debugging na IDE Visual Studio Code
+-------------
+### Depurando na IDE Visual Studio Code
 
 Para debugar um código na IDE VsCode, primeiro precisamos setar os breakpoints. Breakpoints nada mais são que “pontos de parada”, onde o código deve ser observado, geralmente são locais onde erros podem ocorrer, como por exemplo:
 
@@ -81,7 +81,7 @@ Para debugar um código na IDE VsCode, primeiro precisamos setar os breakpoints.
 - Loops;
 - Processamento de dados…
 
-![Pontos vermelhos representam Breakpoints em nosso código](/img/breakpoints.png)
+![Pontos vermelhos representam Breakpoints em nosso código](https://github.com/wChrstphr/Bootcamps/blob/066654cd9aa96ea74eeffadb7bf59f9df2c1972a/Claro-Java/Debugging-Java/img/breakpoints.png)
 
 Pontos vermelhos representam Breakpoints em nosso código
 
@@ -90,11 +90,11 @@ Após indicar os pontos de parada, entramos em modo Debug. Acessar o modo Debug 
 1. Clique direito do mouse → Debug Java;
 2. Pela IDE, na parte superior direita da tela:
     
-    ![Debug na IDE](/img/debug_IDE.png)
+    ![Debug na IDE](https://github.com/wChrstphr/Bootcamps/blob/066654cd9aa96ea74eeffadb7bf59f9df2c1972a/Claro-Java/Debugging-Java/img/debug_IDE.png)
     
 3. Se tiver a extensão Java, no próprio código:
     
-    ![Debug em linha de código](/img/debug_code.png)
+    ![Debug em linha de código](https://github.com/wChrstphr/Bootcamps/blob/066654cd9aa96ea74eeffadb7bf59f9df2c1972a/Claro-Java/Debugging-Java/img/debug_code.png)
     
 
 **Em modo Debug**
@@ -108,7 +108,7 @@ Aqui podemos verificar variáveis locais e até mesmo adicionar outras que quere
 - Step Out (F12) sair do método;
 - Stop (shift + F10) sair do modo debug.
 
-![Controles Depuração de Código](/img/debug_controls.jpg)
+![Controles Depuração de Código](https://github.com/wChrstphr/Bootcamps/blob/066654cd9aa96ea74eeffadb7bf59f9df2c1972a/Claro-Java/Debugging-Java/img/debug_controls.jpg)
 
 **Breakpoint Condicional**
 
@@ -116,9 +116,13 @@ Um breakpoint condicional serve para depurar códigos de pequena a larga escala,
 
 Suponha uma situação onde o erro esteja ocorrendo ao registrar um produto e este produto está na posição 985. Seria inviável ir linha a linha até a posição 985. Por isso adicionamos um breakpoint com a condicional i == 985. Supondo que i seja a posição do produto.
 
-É importante salientar que **o breakpoint deve ser posionado dentro do loop**, não na declaração dele, exemplo:
+É importante salientar que **o breakpoint deve ser posionado dentro do loop**, não na declaração dele
 
-![Condicionais em Depuração de Código](/img/debug_conditional.png)
+Referenciando o código disposto acima, queremos ir direto para a posição **5**
+
+![Condicionais em Depuração de Código](https://github.com/wChrstphr/Bootcamps/blob/066654cd9aa96ea74eeffadb7bf59f9df2c1972a/Claro-Java/Debugging-Java/img/debug_conditional.png)
+
+E este é o output disposto no terminal, em método debug:
 
 ```
 Inicio do programa no método main.
