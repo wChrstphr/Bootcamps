@@ -23,7 +23,16 @@ settings.json
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+# .vscode archives
+.vscode
 
-Claro_Java/GitHub_VsCode_Integration/.vscode/settings.json
-Claro_Java/Sintaxe_Java/tipos-variaveis/.vscode/settings.json
-Claro_Java/Sintaxe_Java/anatomia-classes/.vscode/settings.json
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+*.iml
+.idea
