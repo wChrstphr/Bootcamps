@@ -1,4 +1,4 @@
-package lanchonete.area.cliente;
+package modificadores.lanchonete.area.cliente;
 
 public class Cliente {
 	public void escolherLanche() {

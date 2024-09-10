@@ -1,4 +1,4 @@
-package lanchonete.atendimento;
+package modificadores.lanchonete.atendimento;
 
 public class Atendente {
 	public void servindoMesa() {
