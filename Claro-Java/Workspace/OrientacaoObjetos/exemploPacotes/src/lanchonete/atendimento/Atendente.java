@@ -1,11 +1,13 @@
-package lanchonete;
+package lanchonete.atendimento;
 
 public class Atendente {
 	public void servindoMesa() {
+		pegarPedidoBalcao();
+		pegarLancheCozinha();
 		System.out.println("Servindo mesa");
 	}
 	
-	public void pegarLancheCozinha() {
+	private void pegarLancheCozinha() {
 		System.out.println("Pegando o lanche na cozinha");
 	}
 	
@@ -13,11 +15,11 @@ public class Atendente {
 		System.out.println("Recebendo pagamento");
 	}
 	
-	public void pegarPedidoBalcao() {
+	private void pegarPedidoBalcao() {
 		System.out.println("Pegando o pedido no balcao");
 	}
 
-	public void trocarGas() {
+	void trocarGas() {
 		System.out.println("Atendente trocando o gas");
 	}
 }
