@@ -1,4 +1,4 @@
-package quatroPilaresPOO;
+package resumoQuatroPilares;
 
 // Classe generica
 public abstract class Veiculo {

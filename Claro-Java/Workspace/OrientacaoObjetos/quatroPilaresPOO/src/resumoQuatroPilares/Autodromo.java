@@ -1,4 +1,4 @@
-package quatroPilaresPOO;
+package resumoQuatroPilares;
 
 public class Autodromo {
 	public static void main(String[] args) {

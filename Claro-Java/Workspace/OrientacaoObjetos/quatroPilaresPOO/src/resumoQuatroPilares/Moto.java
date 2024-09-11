@@ -1,4 +1,4 @@
-package quatroPilaresPOO;
+package resumoQuatroPilares;
 
 // Classe especializada
 public class Moto extends Veiculo {
