@@ -1,16 +1,16 @@
-# Compiled class files
+#### Compiled class files ###
 *.class
 
-# Log files
+#### Log files ###
 *.log
 
-# BlueJ files
+#### BlueJ files ###
 *.ctxt
 
-# Mobile Tools for Java (J2ME)
+#### Mobile Tools for Java (J2ME) ###
 .mtj.tmp/
 
-# Package Files
+#### Package Files ###
 *.jar
 *.war
 *.nar
@@ -20,21 +20,46 @@
 *.rar
 settings.json
 
-# Virtual machine crash logs
+#### Virtual machine crash logs ###
 hs_err_pid*
 replay_pid*
 
-# IDE and Editor-specific files
+#### IDE and Editor-specific files ###
 
-# .vscode archives
+#### VS Code ###
 .vscode
 
-# IntelliJ IDEA specific
+#### IntelliJ IDEA specific ###
 /.idea/
+**/.idea
 /shelf/
 /workspace.xml
 /httpRequests/
 /dataSources/
 /dataSources.local.xml
 *.iml
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
 
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### Mac OS ###
+.DS_Store
