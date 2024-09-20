@@ -1,4 +1,4 @@
-package main.java.list.OperacoesBasicas.shoppingCart;
+package main.java.list.OperacoesBasicas.ShoppingCart;
 
 public class Item {
     private final String name;
